@@ -1,0 +1,58 @@
+@import "../styles/variable";
+
+.container-form {
+  margin: 20px auto;
+  border: 2px solid #00000059;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 13px;
+}
+
+.field {
+  padding: 10px 0;
+  width: 100%;
+  .field-label {
+    padding-right: 20px;
+  }
+  .form-image {
+    width: 100px;
+    border: 2px solid black;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.form-button {
+  background-color: #afafaf;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.form-image-wrapper {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field-image-input {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  display: none;
+}
+
+.field-image-img {
+  width: 100px;
+  border: 2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
