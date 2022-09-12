@@ -33,7 +33,6 @@ const FormExampleForm = () => {
     console.log(e, " even and state ",form)
   }
 
-
   const {image} = form;
   return (
     <>
