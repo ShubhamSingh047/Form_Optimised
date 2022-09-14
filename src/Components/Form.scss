@@ -26,11 +26,11 @@
     color: rgb(49, 49, 49);
   }
   .field-input {
-    font-size: 1.8rem;
+    font-size: 18px;
     margin-top: 8px;
     color: rgba(0,0,0,0.9);
-    padding: 5px;
-    width: 95%;
+    padding: 10px;
+    width: 94%;
     border-color: rgba(183, 183, 183, 0.539);
     border-radius: 4px;
   }
@@ -80,9 +80,10 @@
 }
 
 .field-image-img {
-  width: 150px;
+  width: 200px;
+  height: 150px;
   border: 2px solid #ccc;
   display: flex;
   align-items: center;
-  transform: translate(-20%, -5%);
+  transform: translate(-25%, -4%);
 }
