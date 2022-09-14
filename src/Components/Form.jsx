@@ -20,7 +20,7 @@ const FormExampleForm = () => {
     let obj={};
     const {name} = e.target;
     if (e?.target?.files?.length > 0) {  //optional chaining
-      obj[name]=URL.createObjectURL(e.target.files[0]);
+      obj.image=URL.createObjectURL(e.target.files[0]);
     }else if(e?.target?.type==='checkbox'){
       obj[name]=e.target.checked;
     }else {
