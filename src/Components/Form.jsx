@@ -41,9 +41,8 @@ const FormExampleForm = () => {
       <form onSubmit={onSubmit} className="container-form">
         <div className="field">
           <label className="field-label" htmlFor="name">Name : </label>
-          <input className="field-label" type="text" id="name" name="name" onChange={inputHandler} />
+          <input className="field-input" type="text" id="name" name="name" onChange={inputHandler} />
         </div>
-
         <div className="field">
           <label className="field-label" htmlFor="roll_numb">Roll Number : </label>
           <input
@@ -54,18 +53,16 @@ const FormExampleForm = () => {
             onChange={inputHandler}
           />
         </div>
-
-        <div className="field">
-          <label className="field-label" htmlFor="terms_condition">Term & Condition:</label>
+        <div className="field field-toc">
+          <label className="field-toc-label" htmlFor="terms_condition">Term & Condition:</label>
           <input
-            className="field-input"
+            className="field-toc-input"
             type="checkbox"
             id="terms_condition"
             name="termsConditions"
             onChange={inputHandler}
           />
         </div>
-        
         <input
           id="file-input"
           accept="image/*"
@@ -92,7 +89,6 @@ const FormExampleForm = () => {
         </div>
         <input className="form-button" type="submit" value="Submit" />
       </form>
-      {JSON.stringify(form)}
     </>
   );
 };
